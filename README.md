@@ -1,15 +1,15 @@
 # Datasets-Conversas
 
-Repositório de datasets de conversas online. Resultado da Iniciação Tecnológica da Adriana Andrijauskas, realizada no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
+Repositório de datasets de conversas. Resultado da Iniciação Tecnológica da Adriana Andrijauskas, realizada no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
 
 ## Datasets
 Neste trabalho é entendido como conversa culpada, aquela com grande suspeita da existência de um predador sexual. Por sua vez, uma conversa inocente é caracterizada pela não existência de um predador sexual, podendo ou não ser de cunho sexual.
 
 Nenhum tipo de decreto judicial foi utilizado para a construção deste trabalho.
-* c_pr: Conversas culpadas privadas. 43 conversas e 14756 linhas. Conversas fornecidas através da parceria da FEI com o Ministério Público Federal (Adriana Shimabukuro). Tais conversas sofreram aplicação de restrições para a garantia de confidencialidade dos envolvidos, onde foram manipuladas, desde sua criação até sua finalização, em uma máquina localizada na sede do Ministério Público Federal – São Paulo. Mais informações referentes ao ocultamento de dados serão detalhadas abaixo;
-* c_pu: Conversas culpadas públicas. 39 conversas e 1824 linhas. Conversas foram fornecidas e sofreram a aplicação das mesmas restrições citadas acima;
+* c_pr: Conversas culpadas privadas, originalmente em formato de texto em arquivos TXT, geradas por comunicação virtual. 43 conversas e 14756 linhas. Conversas fornecidas através da parceria da FEI com o Ministério Público Federal (Adriana Shimabukuro). Tais conversas sofreram aplicação de restrições para a garantia de confidencialidade dos envolvidos, onde foram manipuladas, desde sua criação até sua finalização, em uma máquina localizada na sede do Ministério Público Federal – São Paulo. Mais informações referentes ao ocultamento de dados serão detalhadas abaixo;
+* c_pu: Conversas culpadas públicas, originalmente em formato de texto em folhas impressas (print de tela de celular, foto de tela de celular, print de tela de computador ou foto de tela de computador), geradas por comunicação virtual. 39 conversas e 1824 linhas. Conversas foram fornecidas e sofreram a aplicação das mesmas restrições citadas acima;
 * c_pu_mod: Conversas culpadas públicas modificadas. Baseado no arquivo c_pu, erros de português foram corrigidos através de modificações de concordância e interpretação de texto. Dimensões foram mantidas;
-* i_pu: Conversas inocentes públicas. 87912 linhas e 137 conversas. Conversas fornecidas através da parceria da FEI com a Universidade Federal de Minas Gerais (professora Heliana Ribeiro de Mello). 
+* i_pu: Conversas inocentes públicas, originalmente em formato de áudio e posteriormente transcritas em arquivos TXT, geradas por comunicação oral. 87912 linhas e 137 conversas. Conversas fornecidas através da parceria da FEI com a Universidade Federal de Minas Gerais (professora Heliana Ribeiro de Mello). 
 
 ## Restrições
 Informações referentes à identificação ou localização os autores foram substituídas por termos associados, listados abaixo, para a garantia de confidencialidade dos envolvidos.
@@ -21,7 +21,7 @@ Informações referentes à identificação ou localização os autores foram su
 * \>telefone< substitui número de contato.
 
 ## Estrutura
-Todos os arquivos possuem a mesma estrutura, descrita e exemplificada abaixo.
+Todos os datasets possuem a mesma estrutura, descrita e exemplificada abaixo.
 
 A estrutura da base de dados do PAN, referente à tarefa proposta em 2012 (https://www.uni-weimar.de/medien/webis/events/pan-12/pan12-web/author-identification.html), foi utilizada como referência.
 

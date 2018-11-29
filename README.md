@@ -13,14 +13,12 @@ Nenhum tipo de decreto judicial foi utilizado para a construção deste trabalho
 
 ## Restrições
 Informações referentes à identificação ou localização os autores foram substituídas por termos associados, listados abaixo, para a garantia de confidencialidade dos envolvidos.
-* \>audio<
-* \>emoticon<
-* \>foto<
-* \>local<
-* \>nome<
-* \>telefone<
-
-O termo >local< engloba: local de uma cidade, cidade, estado, país ou nacionalidade.
+* \>audio< substitui arquivo de áudio;
+* \>emoticon< substitui emoticons que seriam desformatados ao serem populados no dataset (exemplo: ☺), sem modificar emoticons compostos por caracteres (ex: =]);
+* \>foto< substitui arquivos de imagem;
+* \>local< substitui local de uma cidade, cidade, estado, país ou nacionalidade;
+* \>nome< substitui nome ou apelido de autores;
+* \>telefone< substitui número de contato.
 
 ## Estrutura
 Todos os arquivos possuem a mesma estrutura, descrita e exemplificada abaixo.

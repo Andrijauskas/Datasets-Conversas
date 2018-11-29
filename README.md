@@ -3,7 +3,7 @@
 Repositório de datasets de conversas online. Resultado da Iniciação Tecnológica da Adriana Andrijauskas, realizada no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
 
 ## Datasets
-Neste trabalho é entendido como conversa culpada, aquela com grande suspeita da existência de um predador sexual. Por sua vez, uma conversa inocente é caracterizada pela não existência de um predador sexual. Podendo ou não ser de cunho sexual.
+Neste trabalho é entendido como conversa culpada, aquela com grande suspeita da existência de um predador sexual. Por sua vez, uma conversa inocente é caracterizada pela não existência de um predador sexual, podendo ou não ser de cunho sexual.
 
 Nenhum tipo de decreto judicial foi utilizado para a construção deste trabalho.
 * c_pr: Conversas culpadas privadas. 43 conversas e 14756 linhas. Conversas fornecidas através da parceria da FEI com o Ministério Público Federal (Adriana Shimabukuro). Tais conversas sofreram aplicação de restrições para a garantia de confidencialidade dos envolvidos, onde foram manipuladas, desde sua criação até sua finalização, em uma máquina localizada na sede do Ministério Público Federal – São Paulo. Mais informações referentes ao ocultamento de dados serão detalhadas abaixo;
@@ -12,7 +12,7 @@ Nenhum tipo de decreto judicial foi utilizado para a construção deste trabalho
 * i_pu: Conversas inocentes públicas. 87912 linhas e 137 conversas. Conversas fornecidas através da parceria da FEI com a Universidade Federal de Minas Gerais (professora Heliana Ribeiro de Mello). 
 
 ## Restrições
-Informações referentes à identificação ou localização os autores foram substituídas por termos associados, listados abaixo.
+Informações referentes à identificação ou localização os autores foram substituídas por termos associados, listados abaixo, para a garantia de confidencialidade dos envolvidos.
 * \>audio<
 * \>emoticon<
 * \>foto<
@@ -23,7 +23,9 @@ Informações referentes à identificação ou localização os autores foram su
 O termo >local< engloba: local de uma cidade, cidade, estado, país ou nacionalidade.
 
 ## Estrutura
-Todos os arquivos possuem a mesma estrutura, descrita e exemplificada abaixo. O a base de dados fornecida pelo PAN 2012 (https://www.uni-weimar.de/medien/webis/events/pan-12/pan12-web/author-identification.html) foi utilizada como referência.
+Todos os arquivos possuem a mesma estrutura, descrita e exemplificada abaixo.
+
+A estrutura da base de dados do PAN, referente à tarefa proposta em 2012 (https://www.uni-weimar.de/medien/webis/events/pan-12/pan12-web/author-identification.html), foi utilizada como referência.
 
 Descrição da estrutura:
 

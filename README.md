@@ -1,9 +1,95 @@
 # Datasets-Conversas
 
-Repositório de datasets de conversas. Resultados da Iniciação Tecnológica da Adriana Andrijauskas, realizado no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
+Repositório de datasets de conversas online. Resultado da Iniciação Tecnológica da Adriana Andrijauskas, realizada no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
 
 ## Datasets
-* c_pr: Conversas culpadas privadas. 43 conversas e 14756 linhas. Conversas fornecidas através de uma parceria da FEI com o Ministério Público Federeal (Adriana Shimabukuro) e com um representante do Brasil na INTERPOL. Tais conversas sofreram a aplicação de restrições para a garantia de confidencialidade do nome dos autores, nome de envolvidos, e-mail, localização, áudios, fotos e número de celular. Porém devido à confidencialidade dos dados, o mesmo foi manipulado desde sua criação até sua finalização em uma máquina localizada na sede do Ministério Público Federal – São Paulo. 
-* c_pu: Conversas culpadas públicas. 39 conversas e 1824 linhas. Conversas foram fornecidas e sofreram a aplicação das mesmas resrições citadas acima;
-* c_pu_mod: Conversas culpadas públicas modificadas; Mesmas dimensões do arquivo c_pu. Baseado no arquivo c_pu, erros de português foram corrigidos através da realização de modificações de concordância e interpretações de texto.
-* i_pu: Conversas inocentes públicas. 87912 linhas e 137 conversas. Conversas fornecidas através de uma parceria da FEI com a Universidade Federal de Minas Gerais (professora Heliana Ribeiro de Mello). 
+Neste trabalho é entendido como conversa culpada, aquela com grande suspeita da existência de um predador sexual. Por sua vez, uma conversa inocente é caracterizada pela não existência de um predador sexual. Podendo ou não ser de cunho sexual.
+
+Nenhum tipo de decreto judicial foi utilizado para a construção deste trabalho.
+* c_pr: Conversas culpadas privadas. 43 conversas e 14756 linhas. Conversas fornecidas através da parceria da FEI com o Ministério Público Federal (Adriana Shimabukuro). Tais conversas sofreram aplicação de restrições para a garantia de confidencialidade dos envolvidos, onde foram manipuladas, desde sua criação até sua finalização, em uma máquina localizada na sede do Ministério Público Federal – São Paulo. Mais informações referentes ao ocultamento de dados serão detalhadas abaixo;
+* c_pu: Conversas culpadas públicas. 39 conversas e 1824 linhas. Conversas foram fornecidas e sofreram a aplicação das mesmas restrições citadas acima;
+* c_pu_mod: Conversas culpadas públicas modificadas. Baseado no arquivo c_pu, erros de português foram corrigidos através de modificações de concordância e interpretação de texto. Dimensões foram mantidas;
+* i_pu: Conversas inocentes públicas. 87912 linhas e 137 conversas. Conversas fornecidas através da parceria da FEI com a Universidade Federal de Minas Gerais (professora Heliana Ribeiro de Mello). 
+
+## Restrições
+Informações referentes à identificação ou localização os autores foram substituídas por termos associados, listados abaixo.
+* \>audio<
+* \>emoticon<
+* \>foto<
+* \>local<
+* \>nome<
+* \>telefone<
+
+O termo >local< engloba: local de uma cidade, cidade, estado, país ou nacionalidade.
+
+## Estrutura
+Todos os arquivos possuem a mesma estrutura, descrita e exemplificada abaixo. O a base de dados fornecida pelo PAN 2012 (https://www.uni-weimar.de/medien/webis/events/pan-12/pan12-web/author-identification.html) foi utilizada como referência.
+
+Descrição da estrutura:
+
+    <banco>
+       <conversa id=“Número da conversa”>
+          <linha num=“Número da linha”>
+             <autor>Nome do autor criptografado em MD5</autor>
+             <mensagem>Mensagem</mensagem>
+          </linha>
+          
+          …
+          
+          <linha num=“Número da linha”>
+             <autor>Nome do autor criptografado em MD5</autor>
+             <mensagem>Mensagem</mensagem>
+          </linha>
+       </conversa>
+       
+       …
+       
+       <conversa id=“Número da conversa”>
+          <linha num=“Número da linha”>
+             <autor>Nome do autor criptografado em MD5</autor>
+             <mensagem>Mensagem</mensagem>
+          </linha>
+          
+          …
+          
+          <linha num=“Número da linha”>
+             <autor>Nome do autor criptografado em MD5</autor>
+             <mensagem>Mensagem</mensagem>
+          </linha>
+       </conversa>
+    </banco>
+
+Exemplo de preenchimento da estrutura:
+
+    <banco>
+       <conversa id=“1”>
+          <linha num=“1”>
+             <autor>709916bfe16ef8cdd6102dc5453f302f</autor>
+             <mensagem>Voce deita com migo na cama pelada</mensagem>
+          </linha>
+          
+          …
+          
+          <linha num=“5”>
+             <autor>13f27f55ef3622f4e987aac6a57b1ce8</autor>
+             <mensagem>Tah</mensagem>
+          </linha>
+       </conversa>
+       
+       …
+       
+       <conversa id=“39”>
+          <linha num=“1”>
+             <autor>884d8e4b677d1e6a6a731460b54032c3</autor>
+             <mensagem>com meus pais, por q?</mensagem>
+          </linha>
+          
+          …
+          
+          <linha num=“8”>
+             <autor>2cd791880f8099210bfd6a79a16e4a53</autor>
+             <mensagem>mas nao sou obrigada a agaraadar otdos</mensagem>
+          </linha>
+       </conversa>  
+    </banco>
+    

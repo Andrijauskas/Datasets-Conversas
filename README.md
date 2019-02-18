@@ -1,6 +1,6 @@
 # Datasets-Conversas
 
-Repositório de datasets de conversas. Resultado da Iniciação Tecnológica da Adriana Andrijauskas, realizada no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
+Repositório de datasets de conversas. Resultado da Iniciação Tecnológica da Adriana Andrijauskas intitulada "Desenvolvimento de Dataset e Base de Dados em Língua Portuguesa sobre Crimes Sexuais", realizada no Centro Universitário FEI, em 2018, com a orientação do professor doutor Rodrigo Filev Maia.
 
 ## Datasets
 Neste trabalho é entendido como conversa culpada, aquela com grande suspeita da existência de um predador sexual. Por sua vez, uma conversa inocente é caracterizada pela não existência de um predador sexual, podendo ou não ser de cunho sexual.
